@@ -31,4 +31,6 @@ public class PasswordTest extends SpringBootDemoEmailApplicationTests {
         System.out.println("encryptPassword = " + encryptPassword);
         System.out.println("decryptPassword = " + decryptPassword);
     }
+
+
 }
