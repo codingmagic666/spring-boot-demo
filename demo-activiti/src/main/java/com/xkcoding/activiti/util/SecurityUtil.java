@@ -24,6 +24,9 @@ import java.util.Collection;
 @RequiredArgsConstructor(onConstructor_ = @Autowired)
 public class SecurityUtil {
 
+  public static void main(String[] args) {
+    System.out.println(SecurityContextHolder.getContext().getAuthentication());
+  }
     private final UserDetailsService userDetailsService;
 
     public void logInAs(String username) {
