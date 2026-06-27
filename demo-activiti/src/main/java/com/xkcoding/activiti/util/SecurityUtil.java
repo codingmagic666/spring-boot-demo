@@ -25,7 +25,11 @@ import java.util.Collection;
 public class SecurityUtil {
 
   public static void main(String[] args) {
-    System.out.println(SecurityContextHolder.getContext().getAuthentication()  );
+    System.out.println(SecurityContextHolder.getContext().getAuthentication()
+
+    );
+
+    System.out.println(666);
   }
     private final UserDetailsService userDetailsService;
 
